@@ -1,0 +1,22 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.name-container {
+  margin: 0 auto;
+  margin-top:50px;
+  width: 70%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.last-seen {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.goal-container {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+

@@ -56,3 +56,8 @@ a {
   display:inline-block;
   position:relative;
 }
+
+.new-friend-button {
+  float: right;
+  margin-right:10px;
+}

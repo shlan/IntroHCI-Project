@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Butterfly | Add a New Friend!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="addNewFriend.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div align="center">
+      <h3>Add a New Friend!</h3>
+  </div>
+
+
+  <div class="name-container" align="center">
+  	<form>
+    	Name of Friend: <input type="text" name="NameOfFriend">
+    </form>
+    </div>
+
+  <div class="last-seen" align="center">
+  	<form>
+  		Haven't seen since: <input type="date" name="DateLastSeen">
+  	</form>
+  </div>
+
+<div class ="goal-container" align="center">
+  <label for="Day-settings">
+    Goal to see every:
+    <select name="goal-setting">
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="03">03</option>
+        <option value="04">04</option>
+        <option value="05">05</option>
+        <option value="06">06</option>
+        <option value="07">07</option>
+        <option value="08">08</option>
+        <option value="09">09</option>
+        <option value="10">10</option>
+    </select>
+  </label>
+  <label for="DWM-settings">
+    <select name="weekly-monthly-setting">
+      <option value="daily">Day(s)</option>
+      <option value="weekly">Week(s)</option>
+      <option value="monthly">Month(s)</option>
+    </select>
+  </label>
+</div>
+
+
+<div align="center">
+  <form action="connect.html">
+    <input class="btn btn-primary" type="submit" value="Add New Friend">
+  </form>
+
+</body>
+
+
